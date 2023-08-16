@@ -1,0 +1,8 @@
+.dark-mode{
+    background-color: #1c1c2d;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
