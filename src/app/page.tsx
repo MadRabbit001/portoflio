@@ -91,7 +91,7 @@ export default function Home() {
               </div>
 
           </div>
-          {/*SKILLS*/}
+          {/*SKILLS.*/}
           <div id="skills" style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
               <h2 style={{fontSize:'2.5rem'}}>Skills</h2>
               <p>My tech stack</p>
