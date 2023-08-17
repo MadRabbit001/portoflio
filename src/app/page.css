@@ -189,14 +189,19 @@
     grid-column-gap: 20vw;
 }
 
-.skills-grid .center-react{
+.skills-grid .center-skill{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.skills-grid .center-react p{
+.skills-grid .center-skill p{
      color: #b0afaf;
     margin-top: 0;
+}
+
+.skills-grid .center-skill img{
+    width: 60px;
+    background-color: transparent;
 }

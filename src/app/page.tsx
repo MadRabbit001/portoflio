@@ -4,6 +4,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import MouseIcon from '@mui/icons-material/Mouse';
 import NavigationIcon from '@mui/icons-material/Navigation';
 import DownloadIcon from '@mui/icons-material/Download';
+import Image from "next/image";
 
 
 export default function Home() {
@@ -27,14 +28,14 @@ export default function Home() {
         <main className={'main-container'}>
             <div className={'contact-options'}>
                 <a href={'https://www.linkedin.com/in/liron-bensh-web-development'} target={'_blank'}>
-                    <img src={'linkedin.png'} style={{width:'35px'}}/>
+                    <Image src={'linkedin.png'} style={{width:'35px'}} alt={'linkedin logo'}/>
                 </a>
                 <a href={'https://github.com/MadRabbit001'} target={'_blank'}>
-                    <img src={'github.png'} style={{width:'35px'}}/>
+                    <Image src={'github.png'} style={{width:'35px'}} alt={'github logo'}/>
                 </a>
-                <a href={'/'} target={'_blank'}>
-                    <img src={'linkedin.png'} style={{width:'35px'}}/>
-                </a>
+                {/*<a href={'/'} target={'_blank'}>*/}
+                {/*    <Image src={'linkedin.png'} style={{width:'35px'}}/>*/}
+                {/*</a>*/}
             </div>
             <div className={'info'}>
                 <p className={'first'}>Hi, I am Liron</p>
@@ -46,7 +47,7 @@ export default function Home() {
                 </div>
             </div>
             <div className={'pic-of-me'}>
-                <img src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}}/>
+                <Image src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
                 <div className={'scroll'}>
                     <i><MouseIcon sx={{color:'#7d5ee3'}} color={'secondary'}/></i>
                     <a href={'#about'} style={{textDecoration:'none',color:'white'}}><p>Scroll Down</p></a>
@@ -59,11 +60,11 @@ export default function Home() {
                   <p id={'about'}>About Me</p>
                   <p style={{color:'#b0afaf'}}>My Introduction</p>
               <div className={'about-data'}>
-                  <img src={'MeTwo.jpeg'} width={'300'} height={300} style={{objectFit:'cover'}}/>
+                  <Image src={'MeTwo.jpeg'} width={'300'} height={300} style={{objectFit:'cover'}} alt={'image of me'}/>
                   <div>
                       <p  className={'about-text'}>I have 8 years of experience and a deep<br/>understanding of various web<br/>technologies such as HTML, CSS,<br/>JavaScript, TypeScript, Angular, MEAN,<br/>Vue.js, and React.<br/>
                           I am dedicated to keeping up with the<br/>latest trends and techniques in web<br/>development, and I am constantly<br/>learning and expanding my skill set. I have<br/>a keen eye for detail and strive for<br/>perfection in every project I work on.<br/>
-                          When I'm not coding, I enjoy exploring new<br/>technologies and work on side projects. I<br/>am a sports enthusiast. I play basketball<br/>and go to practice regularly. I am also a<br/>big football fan and my favourite club is<br/>Arsenal.</p>
+                          When I&rsquo;m not coding, I enjoy exploring new<br/>technologies and work on side projects. I<br/>am a sports enthusiast. I play basketball<br/>and go to practice regularly. I am also a<br/>big football fan and my favourite club is<br/>Arsenal.</p>
 
                       <div className={'about-experience'}>
                           <div>
@@ -92,44 +93,52 @@ export default function Home() {
           </div>
           {/*SKILLS*/}
           <div id="skills" style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-              <h2>Skills</h2>
+              <h2 style={{fontSize:'2.5rem'}}>Skills</h2>
               <p>My tech stack</p>
               <div className={'skills-grid'}>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
+                  <div className={'center-skill'}>
+                      <Image src={'react.png'} alt="react"/>
                       <p>React</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'spring.png'} alt="react"/>
+                      <p>Spring</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'next.png'} alt="react"/>
+                      <p>Next.js</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'type.png'} alt="react"/>
+                      <p>TypeScript</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'javascript.png'} alt="react"/>
+                      <p>JavaScript</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'java.png'} alt="react"/>
+                      <p>Java</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'mysql.png'} alt="react"/>
+                      <p>MySQL</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'aws.png'} alt="react"/>
+                      <p>AWS</p>
                   </div>
-                  <div className={'center-react'}>
-                      <img src={'react.png'} alt="react"/>
-                      <p>React</p>
+                  <div className={'center-skill'}>
+                      <Image src={'github.png'} alt="react"/>
+                      <p>GitHub</p>
+                  </div>
+                  <div className={'center-skill'}>
+                      <Image src={'postman.png'} alt="react"/>
+                      <p>PostMan</p>
+                  </div>
+                  <div className={'center-skill'}>
+                      <Image src={'redux.png'} alt="react"/>
+                      <p>Redux</p>
                   </div>
               </div>
           </div>
