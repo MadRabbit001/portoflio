@@ -12,13 +12,13 @@ export default function About() {
                 <div className={'about-data'}>
                     <img src={'MeTwo.jpeg'} width={'300'} height={300} style={{objectFit:'cover'}} alt={'image of me'}/>
                     <div>
-                        <p  className={'about-text'}>I have 8 years of experience and a deep<br/>understanding of various web<br/>technologies such as HTML, CSS,<br/>JavaScript, TypeScript, Angular, MEAN,<br/>Vue.js, and React.<br/>
+                        <p  className={'about-text'}>I have 3 years of experience and a deep<br/>understanding of various web<br/>technologies such as HTML, CSS,<br/>JavaScript, TypeScript, Spring, Java,<br/>AWS, MySQL, Redux, Next.js, and React.<br/>
                             I am dedicated to keeping up with the<br/>latest trends and techniques in web<br/>development, and I am constantly<br/>learning and expanding my skill set. I have<br/>a keen eye for detail and strive for<br/>perfection in every project I work on.<br/>
-                            When I&rsquo;m not coding, I enjoy exploring new<br/>technologies and work on side projects. I<br/>am a sports enthusiast. I play basketball<br/>and go to practice regularly. I am also a<br/>big football fan and my favourite club is<br/>Arsenal.</p>
+                            When I&rsquo;m not coding, I enjoy exploring new<br/>technologies and work on side projects. I<br/>am a sports enthusiast. I play basketball<br/>and go to practice regularly. I am also a<br/>big football fan and my favourite club is<br/>Real Madrid.</p>
 
                         <div className={'about-experience'}>
                             <div>
-                                <span className={'experience-number'}>8+</span>
+                                <span className={'experience-number'}>3+</span>
                                 <span className={'experience-words'}>Years <br/>experience</span>
                             </div>
 
@@ -28,7 +28,7 @@ export default function About() {
                             </div>
 
                             <div>
-                                <span className={'experience-number'}>04+</span>
+                                <span className={'experience-number'}>01</span>
                                 <span className={'experience-words'}>Companies <br/>worked</span>
                             </div>
                         </div>
