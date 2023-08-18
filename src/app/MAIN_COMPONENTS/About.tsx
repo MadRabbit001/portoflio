@@ -1,11 +1,11 @@
 import img from "next/image";
 import DownloadIcon from "@mui/icons-material/Download";
-import './page.css';
+import './About.css';
 
 
 export default function About() {
     return(
-        <>
+        <div className={'about-component'}>
             <div className={'about-container'}>
                 <p id={'about'}>About Me</p>
                 <p style={{color:'#b0afaf'}}>My Introduction</p>
@@ -41,6 +41,6 @@ export default function About() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }

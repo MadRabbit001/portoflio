@@ -1,0 +1,67 @@
+.about-component{
+    width: 100%;
+}
+
+.about-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.about-container #about{
+    font-size:2.5rem;
+    font-weight:bolder;
+    margin-bottom:0;
+}
+
+.about-container .about-data{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:8vw;
+}
+
+.about-container .about-data .about-text{
+    color:#bec4d5;
+    word-spacing:0.2em;
+    line-height:1.8;
+    margin-top:0;
+}
+
+.about-container .about-data .about-experience{
+    display:flex;
+    justify-content:space-between;
+}
+
+.about-container .about-data .about-experience div{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .about-data .about-experience div .experience-number{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.about-container .about-data .about-experience div .experience-words{
+    color:#bec4d5;
+    font-size: 0.8rem;
+}
+
+.about-container .about-data .resume{
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6243d3;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;
+    height: 60px;
+}
+
+.about-container .about-data .resume:hover{
+    background-color: #7d5ee3;
+    cursor: pointer;
+}

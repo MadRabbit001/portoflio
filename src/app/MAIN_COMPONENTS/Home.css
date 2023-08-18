@@ -1,0 +1,77 @@
+.home-component{
+    width: 100%;
+}
+
+.sections-container .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 10vh;
+}
+
+.main-container .contact-options{
+    display:flex;
+    flex-direction:column;
+    margin-top:95.5px;
+}
+
+
+
+.main-container .info .first{
+    font-weight: bolder;
+    font-size: 7vh;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+.main-container .info .second{
+    color: #b0afaf;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main-container .info .third{
+    color: #b0afaf;
+    font-size: 1rem;
+}
+
+.main-container .info .contact-me{
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6243d3;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;
+    height: 60px;
+}
+
+.main-container .info .contact-me p{
+    margin: 0;
+}
+
+.main-container .info .contact-me:hover{
+    background-color: #7d5ee3;
+    cursor: pointer;
+}
+
+.main-container .pic-of-me .scroll{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    transition: transform 0.5s ease;
+}
+
+.main-container .pic-of-me .scroll:hover{
+    /*color: #7d5ee3;*/
+    cursor: pointer;
+    transform: translateY(10px);
+}
+
+.main-container .pic-of-me .scroll p{
+    margin: 0;
+}

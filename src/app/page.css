@@ -1,10 +1,12 @@
-
+.god-container{
+    width: 100%;
+}
 
 .nav-container{
     display: flex;
     justify-content: center;
     height: 10vh;
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .nav-container .nav-bar{
@@ -43,165 +45,8 @@
     display:flex;
     flex-direction:column;
     gap:10vh;
-}
-
-.sections-container .main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    gap: 10vh;
-}
-
-.sections-container .main-container .contact-options{
-    display:flex;
-    flex-direction:column;
-    margin-top:95.5px;
+    width: 100%;
 }
 
 
 
-.main-container .info .first{
-    font-weight: bolder;
-    font-size: 7vh;
-    max-width: 350px;
-    min-width: 200px;
-}
-
-.main-container .info .second{
-    color: #b0afaf;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.main-container .info .third{
-    color: #b0afaf;
-    font-size: 1rem;
-}
-
-.main-container .info .contact-me{
-    color: whitesmoke;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #6243d3;
-    border-radius: 7px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;
-    height: 60px;
-}
-
-.main-container .info .contact-me p{
-    margin: 0;
-}
-
-.main-container .info .contact-me:hover{
-    background-color: #7d5ee3;
-    cursor: pointer;
-}
-
-.main-container .pic-of-me .scroll{
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vh;
-    transition: transform 0.5s ease;
-}
-
-.main-container .pic-of-me .scroll:hover{
-    /*color: #7d5ee3;*/
-    cursor: pointer;
-    transform: translateY(10px);
-}
-
-.main-container .pic-of-me .scroll p{
-    margin: 0;
-}
-
-.about-container{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-.about-container #about{
-    font-size:2.5rem;
-    font-weight:bolder;
-    margin-bottom:0;
-}
-
-.about-container .about-data{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    gap:8vw;
-}
-
-.about-container .about-data .about-text{
-    color:#bec4d5;
-    word-spacing:0.2em;
-    line-height:1.8;
-    margin-top:0;
-}
-
-.about-container .about-data .about-experience{
-    display:flex;
-    justify-content:space-between;
-}
-
-.about-container .about-data .about-experience div{
-    display: flex;
-    flex-direction: column;
-}
-
-.about-container .about-data .about-experience div .experience-number{
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
-.about-container .about-data .about-experience div .experience-words{
-    color:#bec4d5;
-    font-size: 0.8rem;
-}
-
-.about-container .about-data .resume{
-    color: whitesmoke;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #6243d3;
-    border-radius: 7px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;
-    height: 60px;
-}
-
-.about-container .about-data .resume:hover{
-    background-color: #7d5ee3;
-    cursor: pointer;
-}
-
-.skills-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20vw;
-}
-
-.skills-grid .center-skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills-grid .center-skill p{
-     color: #b0afaf;
-    margin-top: 0;
-}
-
-.skills-grid .center-skill img{
-    width: 60px;
-    background-color: transparent;
-}

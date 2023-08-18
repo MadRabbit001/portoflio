@@ -1,10 +1,10 @@
 import img from "next/image";
-import './page.css';
+import './Skills.css';
 
 
 export default function Skills() {
     return(
-        <>
+        <div className={'skills-component'}>
             <div id="skills" style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                 <h2 style={{fontSize:'2.5rem'}}>Skills</h2>
                 <p>My tech stack</p>
@@ -55,6 +55,6 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

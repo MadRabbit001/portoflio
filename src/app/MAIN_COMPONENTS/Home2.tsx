@@ -2,10 +2,12 @@ import img from "next/image";
 import NavigationIcon from "@mui/icons-material/Navigation";
 import MouseIcon from "@mui/icons-material/Mouse";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import './Home.css';
 
-export default function Home() {
+
+export default function Home2() {
     return(
-        <>
+        <div className={'home-component'}>
             <main className={'main-container'}>
                 <div className={'contact-options'}>
                     <a href={'https://www.linkedin.com/in/liron-bensh-web-development'} target={'_blank'}>
@@ -36,6 +38,6 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-        </>
+        </div>
     )
 }
