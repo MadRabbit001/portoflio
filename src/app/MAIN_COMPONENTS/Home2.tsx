@@ -16,21 +16,20 @@ export default function Home2() {
                     <a href={'https://github.com/MadRabbit001'} target={'_blank'}>
                         <img src={'github.png'} style={{width:'35px'}} alt={'github logo'}/>
                     </a>
-                    {/*<a href={'/'} target={'_blank'}>*/}
-                    {/*    <img src={'linkedin.png'} style={{width:'35px'}}/>*/}
-                    {/*</a>*/}
                 </div>
-                <div className={'info'}>
-                    <p className={'first'}>Hi, I am Liron</p>
-                    <p className={'second'}>FullStack Developer</p>
-                    <p className={'third'}>An enthusiastic and a passionate coder<br/>with an eye for detail and focus to<br/>produce quality work.</p>
+                <div className={'info-pic-cont'}>
+                    <div className={'info'}>
+                        <p className={'first'}>Hi, I am Liron</p>
+                        <p className={'second'}>FullStack Developer</p>
+                        <p className={'third'}>An enthusiastic and a passionate coder<br/>with an eye for detail and focus to<br/>produce quality work.</p>
+                    </div>
                     <div className={'contact-me'}>
                         <p>Contact Me</p>
                         <NavigationIcon/>
                     </div>
-                </div>
-                <div className={'pic-of-me'}>
-                    <img src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
+                    <div className={'pic-of-me'}>
+                        <img src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
+                    </div>
                     <div className={'scroll'}>
                         <i><MouseIcon sx={{color:'#7d5ee3'}} color={'secondary'}/></i>
                         <a href={'#about'} style={{textDecoration:'none',color:'white'}}><p>Scroll Down</p></a>

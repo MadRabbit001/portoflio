@@ -15,36 +15,58 @@
     margin-bottom:0;
 }
 
+.about-container #my-intro{
+    color: #b0afaf;
+}
+
 .about-container .about-data{
+    /*width: 70vw;*/
     display:flex;
-    flex-direction:row;
-    justify-content:center;
-    gap:8vw;
+    gap: 10vh;
+
 }
 
-.about-container .about-data .about-text{
-    color:#bec4d5;
-    word-spacing:0.2em;
-    line-height:1.8;
-    margin-top:0;
+.about-container img{
+    border-radius: 50%;
 }
 
-.about-container .about-data .about-experience{
-    display:flex;
-    justify-content:space-between;
-}
-
-.about-container .about-data .about-experience div{
+.about-container .about-data .text-cont{
     display: flex;
     flex-direction: column;
 }
 
-.about-container .about-data .about-experience div .experience-number{
+.about-container .about-data .text-cont .about-text{
+    color:#bec4d5;
+    word-spacing:0.2em;
+    line-height:2;
+    margin:0;
+    max-width: 40vw;
+}
+
+.about-container .about-data  .info-two{
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+}
+
+.about-container .about-data .info-two .about-experience{
+    display:flex;
+    justify-content:space-between;
+    height: 10vh;
+    gap: 3vh;
+}
+
+.about-container .about-data .info-two .about-experience div{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .about-data .info-two .about-experience div .experience-number{
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
-.about-container .about-data .about-experience div .experience-words{
+.about-container .about-data .info-two .about-experience div .experience-words{
     color:#bec4d5;
     font-size: 0.8rem;
 }
@@ -64,4 +86,38 @@
 .about-container .about-data .resume:hover{
     background-color: #7d5ee3;
     cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .about-container .about-data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container .about-data img{
+        object-fit: cover;
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .about-container .about-data .text-cont{
+        display: flex;
+    }
+
+    .about-container .about-data .text-cont .about-text{
+        color:#bec4d5;
+        word-spacing:0.2em;
+        line-height:1.8;
+        margin-top:0;
+        max-width: 90vw;
+        min-width: 30vw;
+        height: 100%;
+    }
+
+    .about-container .about-data .about-experience{
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+    }
 }
