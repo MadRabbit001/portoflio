@@ -39,10 +39,12 @@ export default function About() {
                             <span className={'experience-words'}>Companies<br/>worked</span>
                         </div>
                     </div>
-                        <div className={'resume'}>
-                            <p>Download Resume</p>
-                            <DownloadIcon/>
-                        </div>
+                        <a href={'Resume2.pdf'} download={'Resume2.pdf'} style={{textDecoration:'none'}}>
+                            <div className={'resume'}>
+                                <p>Download Resume</p>
+                                <DownloadIcon/>
+                            </div>
+                        </a>
                     </div>
 
 
