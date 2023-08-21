@@ -5,6 +5,7 @@ import Skills from "@/app/MAIN_COMPONENTS/Skills";
 import Home2 from "@/app/MAIN_COMPONENTS/Home2";
 import NavBar from "@/app/MAIN_COMPONENTS/NavBar";
 import Services from "@/app/MAIN_COMPONENTS/Services";
+import Portfolio from "@/app/MAIN_COMPONENTS/Portfolio";
 
 
 export default async function page() {
@@ -16,6 +17,7 @@ export default async function page() {
           <About/>
           <Skills/>
           <Services/>
+          <Portfolio/>
       </div>
       </div>
   )

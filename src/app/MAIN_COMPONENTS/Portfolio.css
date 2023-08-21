@@ -1,0 +1,61 @@
+
+
+
+
+.marquee {
+    height: 30vh;
+    width: 50vh;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin: 50px auto;
+}
+
+.marquee--inner {
+    display: flex;
+    /*gap: 32.5px;*/
+    width: 200%;
+    margin: 1.7vh 0 0;
+    position: absolute;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee--inner:hover {
+    animation-play-state: paused;
+}
+
+.marquee--inner span {
+    float: left;
+    width: 100%;
+    display: flex;
+    gap: 34px;
+    /*height: 240px;*/
+}
+
+.marquee--inner span .orb {
+    width: 150px;
+    height: 250px;
+    background: #999;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 24.7px 4px;
+    /*padding-bottom: 50px;*/
+    float: left;
+    transition: all .2s ease-out;
+    object-fit: contain;
+    /*background-image:url("/public/Mad.png");*/
+
+}
+
+.marquee--inner span .orb:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    cursor: pointer;
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+}

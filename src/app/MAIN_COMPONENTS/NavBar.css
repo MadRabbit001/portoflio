@@ -17,6 +17,10 @@
     background-color: #1c1c2d;
 }
 
+.active{
+    color: #6243d3;
+}
+
 .nav-bar a{
     color: whitesmoke;
     padding-right: 1.2rem;

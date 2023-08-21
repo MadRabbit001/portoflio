@@ -8,7 +8,7 @@ import './Home.css';
 export default function Home2() {
 
     return(
-        <div className={'home-component'}>
+        <div id={'home'} className={'home-component'}>
             <main className={'main-container'}>
                 <div className={'contact-options'}>
                     <a href={'https://www.linkedin.com/in/liron-bensh-web-development'} target={'_blank'}>
@@ -29,7 +29,7 @@ export default function Home2() {
                         <NavigationIcon/>
                     </div>
                     <div className={'pic-of-me'}>
-                        <img id={'home'} src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
+                        <img src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
                     </div>
                     <div className={'scroll'}>
                         <i><MouseIcon sx={{color:'#7d5ee3'}} color={'secondary'}/></i>
