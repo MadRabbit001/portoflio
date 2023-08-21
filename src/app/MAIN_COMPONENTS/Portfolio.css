@@ -1,5 +1,21 @@
 
+.portfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.portfolio .portfolio-title{
+    font-size:2.5rem;
+    font-weight:bolder;
+    margin-bottom:0;
+}
+
+.portfolio .recent-work{
+    color: #b0afaf;
+}
 
 
 .marquee {

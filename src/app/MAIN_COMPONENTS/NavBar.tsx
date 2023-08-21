@@ -21,10 +21,12 @@ export default function NavBar() {
             element.style.color = color;
         }
 
-        const allH1 = document.querySelectorAll('p');
-        for (let i = 0; i < allH1.length; i++) {
-            const element = allH1[i] as HTMLElement;
-            element.style.color = color;
+        const allP = document.querySelectorAll('p');
+        for (let i = 0; i < allP.length; i++) {
+            const element = allP[i] as HTMLElement;
+            if (element.className !== 'skip'){
+                element.style.color = color;
+            }
         }
 
             const myColor = document.getElementsByClassName('light-mode');
@@ -75,7 +77,7 @@ export default function NavBar() {
                     <a href={'#about1'} style={{textDecoration:'none',color:'white'}}><p id={'about2'} className={'light-mode'}>About</p></a>
                     <a href={'#skills'}><p id={'skills2'} className={'light-mode'}>Skills</p></a>
                     <a href={'#services1'}><p id={'services2'} className={'light-mode'}>Services</p></a>
-                    <a href={'#'}><p className={'light-mode'}>Portfolio</p></a>
+                    <a href={'#portfolio'}><p className={'light-mode'}>Portfolio</p></a>
                     <a href={'#'}><p className={'light-mode'}>Contact Me</p></a>
                     <p><LightModeIcon onClick={toggleDarkMode} fontSize={"small"} sx={{cursor:'pointer',color:color}}/></p>
                 </nav>

@@ -6,6 +6,7 @@ import Home2 from "@/app/MAIN_COMPONENTS/Home2";
 import NavBar from "@/app/MAIN_COMPONENTS/NavBar";
 import Services from "@/app/MAIN_COMPONENTS/Services";
 import Portfolio from "@/app/MAIN_COMPONENTS/Portfolio";
+import ContactMe from "@/app/MAIN_COMPONENTS/ContactMe";
 
 
 export default async function page() {
@@ -18,6 +19,7 @@ export default async function page() {
           <Skills/>
           <Services/>
           <Portfolio/>
+          <ContactMe/>
       </div>
       </div>
   )

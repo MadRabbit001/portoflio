@@ -1,0 +1,45 @@
+.contact-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section .coop{
+    padding: 3%;
+    background-color: #6243d3;
+    width: 60vh;
+    height: 30vh;
+    border-radius: 15px;
+    display: flex;
+}
+
+.contact-section .coop .coop-info p{
+    font-family: fantasy, Candara;
+    letter-spacing: 1px;
+}
+
+.contact-section .coop .coop-info .coop-button{
+    color: #6243d3;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;
+    height: 60px;
+    width: 30%;
+}
+
+.contact-section .coop .coop-info .coop-button:hover{
+    /*background-color: #7d5ee3;*/
+    cursor: pointer;
+}
+
+.contact-section .coop .coop-info .coop-button p{
+    margin: 0;
+    color: #6243d3;
+    font-family: Candara;
+}

@@ -5,29 +5,33 @@ export default function Portfolio() {
 
 
     return (
-        <div className="marquee">
-            <div className="marquee--inner">
-                <span>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                </span>
-                <span>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                    <img src={'Mad.png'} className="orb"/>
-                </span>
+        <div id={'portfolio'} className={'portfolio'}>
+            <p className={'portfolio-title'}>Portfolio</p>
+            <p className={'recent-work'}>Most Recent Work</p>
+            <div className="marquee">
+                <div className="marquee--inner">
+                    <span>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                    </span>
+                    <span>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                        <img src={'Mad.png'} className="orb"/>
+                    </span>
 
+                </div>
             </div>
         </div>
     );

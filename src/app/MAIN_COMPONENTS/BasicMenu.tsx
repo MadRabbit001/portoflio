@@ -51,7 +51,7 @@ export default function BasicMenu(props:MobileNavProps) {
                 <a href={'#about1'} style={{textDecoration:'none'}}><MenuItem onClick={handleClose} sx={{backgroundColor:props.bgColor,color:props.color}}>About</MenuItem></a>
                 <a href={'#skills'} style={{textDecoration:'none'}}><MenuItem onClick={handleClose} sx={{backgroundColor:props.bgColor,color:props.color}}>Skills</MenuItem></a>
                 <a href={'#services1'} style={{textDecoration:'none'}}><MenuItem onClick={handleClose} sx={{backgroundColor:props.bgColor,color:props.color}}>Services</MenuItem></a>
-                <a href={'#about'} style={{textDecoration:'none'}}><MenuItem onClick={handleClose} sx={{backgroundColor:props.bgColor,color:props.color}}>Portfolio</MenuItem></a>
+                <a href={'#portfolio'} style={{textDecoration:'none'}}><MenuItem onClick={handleClose} sx={{backgroundColor:props.bgColor,color:props.color}}>Portfolio</MenuItem></a>
                 <a href={'#about'} style={{textDecoration:'none'}}><MenuItem onClick={handleClose} sx={{backgroundColor:props.bgColor,color:props.color}}>Contact Me</MenuItem></a>
                 <MenuItem sx={{backgroundColor:props.bgColor}}><LightModeIcon onClick={props.toggleDarkMode} fontSize={"small"} sx={{cursor:'pointer',width:'100%',color:props.color,backgroundColor:props.bgColor}}/></MenuItem>
             </Menu>

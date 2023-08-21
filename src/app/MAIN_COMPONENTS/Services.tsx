@@ -5,7 +5,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export default function Services() {
     return(
         <div id={'services1'} className={'services'}>
-            <p  className={'services-title'}>Services</p>
+            <p className={'services-title'}>Services</p>
             <p className={'what-offer'}>What I Offer</p>
             <div className={'card-cont'}>
                 <div className={'card'}>
