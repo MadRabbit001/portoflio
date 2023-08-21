@@ -71,10 +71,10 @@ export default function NavBar() {
             <div className={'nav-container'}>
                 <nav id={'nav-bar1'} className={'nav-bar'}>
                     <p className={'light-mode'}>Liron Ben Shushan</p>
-                    <a href={'#home'} className={'push'}><p className={'light-mode'}>Home</p></a>
-                    <a href={'#about1'} style={{textDecoration:'none',color:'white'}}><p className={'light-mode'}>About</p></a>
-                    <a href={'#skills'}><p className={'light-mode'}>Skills</p></a>
-                    <a href={'#services1'}><p className={'light-mode'}>Services</p></a>
+                    <a href={'#home'} className={'push'}><p id={'home2'} className={'light-mode'}>Home</p></a>
+                    <a href={'#about1'} style={{textDecoration:'none',color:'white'}}><p id={'about2'} className={'light-mode'}>About</p></a>
+                    <a href={'#skills'}><p id={'skills2'} className={'light-mode'}>Skills</p></a>
+                    <a href={'#services1'}><p id={'services2'} className={'light-mode'}>Services</p></a>
                     <a href={'#'}><p className={'light-mode'}>Portfolio</p></a>
                     <a href={'#'}><p className={'light-mode'}>Contact Me</p></a>
                     <p><LightModeIcon onClick={toggleDarkMode} fontSize={"small"} sx={{cursor:'pointer',color:color}}/></p>
