@@ -37,8 +37,8 @@ export default function NavBar() {
 
             if (dark){
                 document.body.style.backgroundColor = 'white';
-                document.getElementById('nav-bar1').style.backgroundColor = bgColor;
-                document.getElementById('mobile-nav-container').style.backgroundColor = bgColor;
+                document.getElementById('nav-bar1')!.style.backgroundColor = bgColor;
+                document.getElementById('mobile-nav-container')!.style.backgroundColor = bgColor;
 
                 for (let i = 0; i < allDiv.length; i++) {
                     const element = allDiv[i] as HTMLDivElement;
@@ -49,8 +49,8 @@ export default function NavBar() {
                 setBgcolor('whitesmoke');
             }else {
                 document.body.style.backgroundColor = '#1c1c2d';
-                document.getElementById('nav-bar1').style.backgroundColor = bgColor;
-                document.getElementById('mobile-nav-container').style.backgroundColor = bgColor;
+                document.getElementById('nav-bar1')!.style.backgroundColor = bgColor;
+                document.getElementById('mobile-nav-container')!.style.backgroundColor = bgColor;
 
                 for (let i = 0; i < allDiv.length; i++) {
                     const element = allDiv[i] as HTMLDivElement;
