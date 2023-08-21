@@ -2,6 +2,16 @@
     width: 100%;
 }
 
+.skills-component .skills-title{
+    font-size:2.5rem;
+    font-weight:bolder;
+    margin-bottom:0;
+}
+
+.skills-component .my-tech{
+    color: #b0afaf;
+}
+
 .skills-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

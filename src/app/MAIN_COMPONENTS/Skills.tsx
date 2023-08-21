@@ -6,8 +6,8 @@ export default function Skills() {
     return(
         <div className={'skills-component'}>
             <div id="skills" style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-                <h2 style={{fontSize:'2.5rem'}}>Skills</h2>
-                <p>My tech stack</p>
+                <p className={'skills-title'}>Skills</p>
+                <p className={'my-tech'}>My tech stack</p>
                 <div className={'skills-grid'}>
                     <div className={'center-skill'}>
                         <img src={'react.png'} alt="react"/>

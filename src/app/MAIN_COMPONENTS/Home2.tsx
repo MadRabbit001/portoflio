@@ -6,6 +6,7 @@ import './Home.css';
 
 
 export default function Home2() {
+
     return(
         <div className={'home-component'}>
             <main className={'main-container'}>
@@ -28,11 +29,11 @@ export default function Home2() {
                         <NavigationIcon/>
                     </div>
                     <div className={'pic-of-me'}>
-                        <img src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
+                        <img id={'home'} src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>
                     </div>
                     <div className={'scroll'}>
                         <i><MouseIcon sx={{color:'#7d5ee3'}} color={'secondary'}/></i>
-                        <a href={'#about'} style={{textDecoration:'none',color:'white'}}><p>Scroll Down</p></a>
+                        <a href={'#about1'} style={{textDecoration:'none',color:'white'}}><p>Scroll Down</p></a>
                         <i><ArrowDownwardIcon sx={{color:'#7d5ee3'}}/></i>
                     </div>
                 </div>

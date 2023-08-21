@@ -5,7 +5,7 @@ import './About.css';
 
 export default function About() {
     return(
-        <div className={'about-component'}>
+        <div id={'about1'} className={'about-component'}>
             <div className={'about-container'}>
                 <p id={'about'}>About Me</p>
                 <p id={'my-intro'}>My Introduction</p>

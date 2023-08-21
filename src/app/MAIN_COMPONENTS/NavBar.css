@@ -58,10 +58,14 @@
         display: flex;
         /*width: 100vw;*/
         justify-content: space-between;
+        background-color: #222236;
     }
 
     .mobile-nav-container p{
         margin-right: auto;
     }
 
+    .menu{
+        display: block;
+    }
 }
