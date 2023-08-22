@@ -19,8 +19,8 @@
 
 
 .marquee {
-    height: 30vh;
-    width: 30vh;
+    height: 282.500px;
+    width: 286.5px;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
     overflow: hidden;
@@ -73,5 +73,5 @@
 
 @keyframes marquee {
     0% { left: 0; }
-    100% { left: -270%; }
+    100% { left: -240%; }
 }
