@@ -24,7 +24,8 @@ export default function NavBar() {
         const allP = document.querySelectorAll('p');
         for (let i = 0; i < allP.length; i++) {
             const element = allP[i] as HTMLElement;
-            if (element.className !== 'skip'){
+            console.log(element.className.slice(0,4));
+            if (element.className.slice(0,4) !== 'skip'){
                 element.style.color = color;
             }
         }
