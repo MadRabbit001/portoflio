@@ -11,26 +11,16 @@ export default function Portfolio() {
             <div className="marquee">
                 <div className="marquee--inner">
                     <span>
+                        <img src={'neya.png'} className="orb"/>
                         <img src={'Mad.png'} className="orb"/>
                         <img src={'Mad.png'} className="orb"/>
+                        <img src={'neya.png'} className="orb"/>
                         <img src={'Mad.png'} className="orb"/>
                         <img src={'Mad.png'} className="orb"/>
+                        <img src={'neya.png'} className="orb"/>
                         <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                    </span>
-                    <span>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                        <img src={'Mad.png'} className="orb"/>
-                    </span>
 
+                    </span>
                 </div>
             </div>
         </div>

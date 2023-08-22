@@ -20,7 +20,7 @@
 
 .marquee {
     height: 30vh;
-    width: 50vh;
+    width: 30vh;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
     overflow: hidden;
@@ -34,8 +34,8 @@
     /*gap: 32.5px;*/
     width: 200%;
     margin: 1.7vh 0 0;
-    position: absolute;
-    animation: marquee 20s linear infinite;
+    position: relative;
+    animation: marquee 10s linear infinite;
 }
 
 .marquee--inner:hover {
@@ -44,7 +44,7 @@
 
 .marquee--inner span {
     float: left;
-    width: 100%;
+    width: 200%;
     display: flex;
     gap: 34px;
     /*height: 240px;*/
@@ -73,5 +73,5 @@
 
 @keyframes marquee {
     0% { left: 0; }
-    100% { left: -100%; }
+    100% { left: -270%; }
 }
