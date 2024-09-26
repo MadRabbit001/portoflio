@@ -25,8 +25,11 @@ export default function Home2() {
                         <p className={'third'}>An enthusiastic and a passionate coder<br/>with an eye for detail and focus to<br/>produce quality work.</p>
                     </div>
                     <div className={'contact-me'}>
-                        <p>Contact Me</p>
-                        <NavigationIcon/>
+                        <a href={'#contact'}>
+                            <p>Contact Me</p>
+                            <NavigationIcon/>
+                        </a>
+
                     </div>
                     <div className={'pic-of-me'}>
                         <img src={'Mad.png'} style={{borderRadius:'50%',marginTop:'10vh',width:'30vh'}} alt={'my logo'}/>

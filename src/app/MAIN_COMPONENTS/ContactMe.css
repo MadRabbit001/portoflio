@@ -90,6 +90,7 @@
 .contact-section .actual-contact .contact-tools .contact-info{
     display: flex;
     flex-direction: column;
+    /*gap: 10px;*/
 }
 
 .contact-section .actual-contact .contact-tools .contact-info .contact-info-option{

@@ -1,5 +1,6 @@
 .about-component{
     width: 100%;
+    overflow-y: unset;
 }
 
 .about-container{

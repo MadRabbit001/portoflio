@@ -30,7 +30,7 @@ export default function ContactMe() {
                             <p className={'contact-info-option-icon'}><PhoneInTalkIcon/></p>
                             <div>
                                 <p className={'contact-info-option-title'}>Call Me</p>
-                                <p className={'skip contact-info-option-value'}>+972 527566033</p>
+                                <p className={'skip contact-info-option-value'}><a href={'tel:+972 527566033'} style={{color:"#b0afaf", textDecoration:"unset"}}>+972 527566033</a> </p>
                             </div>
                         </div>
                         <div className={'contact-info-option'}>
@@ -48,18 +48,18 @@ export default function ContactMe() {
                             </div>
                         </div>
                     </div>
-                    <div className={'send-message'}>
-                        <div className={'personal-info'}>
-                            <div className={'box'}><p>name</p></div>
-                            <div className={'box'}><p>email</p></div>
-                        </div>
-                        <div className={'box'}></div>
-                        <div className={'box'}></div>
-                        <div className={'send-button'}>
-                            <p>Send Message</p>
-                            <NavigationIcon/>
-                        </div>
-                    </div>
+                    {/*<div className={'send-message'}>*/}
+                    {/*    <div className={'personal-info'}>*/}
+                    {/*        <div className={'box'}><p>name</p></div>*/}
+                    {/*        <div className={'box'}><p>email</p></div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className={'box'}></div>*/}
+                    {/*    <div className={'box'}></div>*/}
+                    {/*    <div className={'send-button'}>*/}
+                    {/*        <p>Send Message</p>*/}
+                    {/*        <NavigationIcon/>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>

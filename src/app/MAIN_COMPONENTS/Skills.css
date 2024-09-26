@@ -1,5 +1,6 @@
 .skills-component{
     width: 100%;
+    overflow-y: unset;
 }
 
 .skills-component .skills-title{

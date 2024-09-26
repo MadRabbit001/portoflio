@@ -1,5 +1,6 @@
 .home-component{
     width: 100%;
+    overflow-y: unset;
 }
 
 .sections-container .main-container{
@@ -67,7 +68,24 @@
     border-radius: 7px;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;
     height: 60px;
+    text-decoration: none;
 }
+
+.main-container .info-pic-cont .contact-me a{
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #6243d3;*/
+    /*border-radius: 7px;*/
+    /*box-shadow: 2px 2px 4px rgba(0,0,0,0.2) ;*/
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+}
+
+
 
 .main-container .info-pic-cont .contact-me p{
     margin: 0;
